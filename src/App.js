@@ -7,6 +7,7 @@ import Products from './components/Products';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Login from './components/Login';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path = '/contact' element = { <Contact /> } />
         <Route path = '*' element = { <NotFound /> } />
       </Routes>
+      <Login/>
     </Router>
   );
 }
