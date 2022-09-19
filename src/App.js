@@ -14,6 +14,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
+        <Route path = '/login' element = { <Login /> } />
         <Route path = '/' element = { <Home /> } exact />
         <Route path = '/about' element = { <About /> } />
         <Route path = '/products' element = { <Products /> } />
@@ -21,7 +22,6 @@ const App = () => {
         <Route path = '/contact' element = { <Contact /> } />
         <Route path = '*' element = { <NotFound /> } />
       </Routes>
-      <Login/>
     </Router>
   );
 }
