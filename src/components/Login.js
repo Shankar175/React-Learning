@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Login.css'
-import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
