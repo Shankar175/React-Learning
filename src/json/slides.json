@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "image" : "https://media.wired.com/photos/631a469e40fe1e8870aa39c8/master/pass/How-to-Preorder-iPhone-14-and-iPhone-14-Pro-Gear.png",
+        "title" : "Apple Iphone 14"
+    },
+    {
+        "id" : 2,
+        "image" : "https://cdn.pocket-lint.com/r/s/1201x/assets/images/151520-laptops-review-hands-on-apple-macbook-air-2020-initial-review-keyboard-dreams-become-a-reality-image2-flid9gzv8w.jpg",
+        "title" : "Apple Macbook"
+    },
+    {
+        "id" : 3,
+        "image" : "https://gomechanic.in/blog/wp-content/uploads/2020/04/20200304071236_2019-Polo-GT-front-stat-1200x795.jpg",
+        "title" : "Volkswagen Polo"
+    }
+]

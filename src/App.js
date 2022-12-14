@@ -9,11 +9,13 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Carousel from './components/Carousel'
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <Carousel/>
       <Routes>
         <Route path = '/login' element = { <Login /> } />
         <Route path = '/' element = { <Home /> } exact />
