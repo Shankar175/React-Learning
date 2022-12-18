@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../../assets/kr-logo.png'
 
 const Navbar = () => {
     const [isMobileSize, setIsMobileSize] = useState(false);
     return (
     <>
         <nav className='navbar'>
-            <h3 className='logo'>Logo</h3>
+            <h3 className='logo'>
+                <img src={logo} width='160px' alt="" />
+            </h3>
             <ul className= { isMobileSize ? 'nav-links-mobile' : 'nav-links' } onClick = { () => setIsMobileSize(false) } >
                 <Link to='/' className='home'>
                     <li>Home</li>
